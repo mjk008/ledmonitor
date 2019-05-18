@@ -1,0 +1,26 @@
+body
+{
+    background:black;
+}
+iframe
+{
+    display: block;
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    margin-top:5%;
+    -webkit-mask-image: url('01.png');
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat-x: no-repeat;
+    -webkit-mask-attachment: no-repeat;
+    overflow: hidden; 
+    scrollbar-width: 0px;
+}
+#panel
+{
+width: 70%;
+height: 18%;
+margin-left: 15%;
+position: relative;
+top:-20px;
+}
