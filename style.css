@@ -5,10 +5,10 @@ body
 iframe
 {
     display: block;
-    width: 70%;
-    height: 70%;
+    width: 75%;
+    height: 72%;
     margin-left: 15%;
-    margin-top:5%;
+    margin-top:2%;
     -webkit-mask-image: url('01.png');
     -webkit-mask-size: 100%;
     -webkit-mask-repeat-x: no-repeat;
@@ -18,9 +18,17 @@ iframe
 }
 #panel
 {
-width: 70%;
+width: 75%;
 height: 18%;
 margin-left: 15%;
 position: relative;
 top:-20px;
+}
+#text
+{
+-webkit-text-fill-color: aliceblue;
+-webkit-text-stroke-color: aqua;
+font-family: 'poppins';
+font-size: 35px;
+text-align: center;
 }
